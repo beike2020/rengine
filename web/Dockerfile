@@ -42,7 +42,7 @@ RUN apt update -y && apt install -y  --no-install-recommends \
 
 
 # Download and install go 1.20
-RUN wget https://golang.org/dl/go1.20.linux-amd64.tar.gz
+RUN wget https://studygolang.com/dl/golang/go1.20.linux-amd64.tar.gz
 RUN tar -xvf go1.20.linux-amd64.tar.gz
 RUN rm go1.20.linux-amd64.tar.gz
 RUN mv go /usr/local
